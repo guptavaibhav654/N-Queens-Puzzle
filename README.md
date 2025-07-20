@@ -1,47 +1,56 @@
-# N-Queens Visualiser
-Project Link https://guptavaibhav654.github.io/N-Queens-Puzzle/
+# ♟️ N-Queens Visualiser
 
-This project is a web-based visualizer for the classic N-Queens problem. It allows users to see all possible arrangements of N queens on an N x N chessboard such that no two queens threaten each other.
+🔗 **Live Demo:** [N-Queens Visualiser](https://guptavaibhav654.github.io/N-Queens-Puzzle/)
 
-## Features
+This project is a web-based visualizer for the classic N-Queens problem. It allows users to explore all valid arrangements of N queens on an N×N chessboard where no two queens threaten each other, animated step-by-step.
 
-- Input the number of queens (N) to visualize solutions for the N-Queens problem.
-- Visualizes all possible valid arrangements of queens on the board.
-- Step-by-step animation showing the backtracking algorithm in action.
-- Adjustable speed control for the visualization using a slider.
-- Displays the total number of possible arrangements for the given N.
-- Interactive and easy-to-use interface.
+## ✨ Features
 
-## Usage
+- Input the number of queens (N) and visualize all possible solutions.
+- Step-by-step backtracking animation to demonstrate how the algorithm works.
+- Adjustable speed control via slider.
+- Displays total number of valid arrangements.
+- Simple, interactive, and user-friendly interface.
 
-1. Open the `index.html` file in a modern web browser.
-2. Enter the number of queens (N) in the input box. Valid values are from 1 to 8.
-3. Use the slider to adjust the speed of the visualization.
-4. Click the **Play** button to start the visualization.
-5. The visualizer will display all possible solutions for the given N, showing the placement of queens on each board.
+## 🚀 How to Use
 
-## Limitations
+1. **Open:** [index.html](https://guptavaibhav654.github.io/N-Queens-Puzzle/) in a modern browser.
+2. **Input:** Number of queens (1 to 8).
+3. **Adjust Speed:** Use the slider to set animation speed.
+4. **Visualize:** Click "Play" to start solving and watch the algorithm in action.
 
-- The maximum number of queens supported is 8 to ensure performance and usability.
-- The visualization may be slow for larger values of N due to the complexity of the problem.
+## 🧠 Limitations
 
-## Technologies Used
+- Supports **N = 1 to 8** queens for performance and usability.
+- Visualization might slow down for larger N due to computational complexity.
 
-- HTML5
-- CSS3
-- JavaScript (ES6+)
-- Font Awesome for icons
+## 🛠️ Technologies Used
 
-## Project Structure
+- **HTML5**
+- **CSS3**
+- **JavaScript (ES6+)**
+- **Font Awesome** (for queen icons and controls)
 
-- `index.html` - The main HTML page containing the UI.
-- `app.js` - JavaScript file containing the logic for solving and visualizing the N-Queens problem.
-- `style.css` - CSS file for styling the visualizer (linked in `index.html`).
+## 📁 Project Structure
 
-## How It Works
+/
+├── index.html # Main UI page
+├── style.css # Stylesheet for layout and design
+└── app.js # Core logic and visualization
 
-The visualizer uses a backtracking algorithm to find all valid solutions for placing N queens on an N x N chessboard. It animates the process by coloring cells and placing queen icons step-by-step, allowing users to follow the algorithm's decision-making and backtracking in real time.
+## ⚙️ How It Works
 
-## License
+The visualizer uses a **recursive backtracking algorithm** to solve the N-Queens puzzle. It animates each decision point—showing placements and backtracking steps—by dynamically updating the board, allowing you to visually understand how the algorithm searches for solutions.
 
-This project is open source and free to use.
+## 📜 License
+
+This project is **open-source** and free to use, modify, and share.
+
+## 🤝 Contributing
+
+Suggestions and improvements are welcome. Feel free to open an issue or submit a pull request!
+
+## 📫 Contact
+
+**Author:** Vaibhav Gupta  
+**GitHub:** [@guptavaibhav654](https://github.com/guptavaibhav654)
