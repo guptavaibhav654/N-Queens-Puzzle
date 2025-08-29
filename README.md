@@ -1,6 +1,6 @@
 # ♟️ N-Queens Visualiser
 
-🔗 **Live Demo:** [N-Queens Visualiser](https://guptavaibhav654.github.io/N-Queens-Puzzle/)
+🔗 **Live Demo:** [N-Queens Visualiser](n-queens-puzzle-phi.vercel.app)
 
 This project is a web-based visualizer for the classic N-Queens problem. It allows users to explore all valid arrangements of N queens on an N×N chessboard where no two queens threaten each other, animated step-by-step.
 
